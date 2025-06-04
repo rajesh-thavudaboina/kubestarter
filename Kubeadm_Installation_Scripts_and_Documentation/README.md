@@ -183,6 +183,14 @@ This guide outlines the steps needed to set up a Kubernetes cluster using `kubea
 kubectl get nodes
 
 ```
+```bash
+sudo systemctl status containerd.service
+
+```
+```bash
+sudo systemctl status kubelet.service
+
+```
 
    <img src="https://raw.githubusercontent.com/faizan35/kubernetes_cluster_with_kubeadm/main/Img/nodes-connected.png" width="70%">
 
