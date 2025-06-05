@@ -191,7 +191,18 @@ sudo systemctl status containerd.service
 sudo systemctl status kubelet.service
 
 ```
+```bash
+sudo apt-get install -y bash-completion
 
+```
+```bash
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+
+```
+```bash
+source ~/.bashrc
+
+```
    <img src="https://raw.githubusercontent.com/faizan35/kubernetes_cluster_with_kubeadm/main/Img/nodes-connected.png" width="70%">
 
 ---
